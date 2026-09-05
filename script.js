@@ -19,3 +19,20 @@ window.addEventListener("scroll",()=>{
 },{passive:true});
 
 document.getElementById("year").textContent=new Date().getFullYear();
+
+/* === Added: persistent Day / Night mode === */
+const themeToggle = document.getElementById("themeToggle");
+if (localStorage.getItem("scm-theme") === "night") {
+  document.body.classList.add("night");
+}
+function updateThemeIcon(){
+  if(themeToggle){
+    themeToggle.textContent = document.body.classList.contains("night") ? "☀" : "☾";
+  }
+}
+updateThemeIcon();
+themeToggle?.addEventListener("click",()=>{
+  document.body.classList.toggle("night");
+  localStorage.setItem("scm-theme", document.body.classList.contains("night") ? "night" : "day");
+  updateThemeIcon();
+});
