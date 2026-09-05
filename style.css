@@ -39,3 +39,59 @@ body.night .work-image{background:#162824}
   .work-image{height:auto;min-height:360px}
   .work-image img{height:auto;max-height:600px}
 }
+
+/* === Final accessibility / theme-contrast pass === */
+body{color:var(--ink)}
+.dark-section{color:var(--darkText)}
+.dark-section .split-heading h2{color:#f4f1e7}
+.light-section .split-heading h2,.work-section .split-heading h2,.skills-section .split-heading h2{color:var(--ink)}
+.section-label{color:#68766e}
+.dark-section .section-label{color:#a4b3aa}
+.career-body h3,.work-copy h3,.about-statement .big-copy,.fact-list b,.edu-card h3,.skill-card h3{color:var(--ink)}
+.dark-section .career-body h3,.dark-section .expertise-card h3,.dark-section .process-card h3{color:#f4f1e7}
+.work-copy .work-tag{color:#9a742e}
+body.night .section-label{color:#aebbb4}
+body.night .light-section .split-heading h2,
+body.night .work-section .split-heading h2,
+body.night .skills-section .split-heading h2,
+body.night .career-body h3,
+body.night .about-statement .big-copy,
+body.night .fact-list b,
+body.night .edu-card h3,
+body.night .skill-card h3,
+body.night .work-copy h3{color:#f3f1e8}
+body.night .work-copy .work-tag{color:#e4b95e}
+body.night .fact-list span,
+body.night .career-year,
+body.night .edu-card small,
+body.night .hero-metrics span{color:#a9b5ae}
+body.night .about-statement>p:last-child,
+body.night .career-body ul,
+body.night .work-copy>p,
+body.night .skill-card p,
+body.night .edu-card p{color:#b6c1bb}
+body.night .buyer-note{color:#a8b5ae}
+body.night .process-card p,
+body.night .expertise-card p{color:#aab8b1}
+body.night .process-card b,.dark-section .process-card b,.dark-section .expertise-card small{color:#b6c6bd}
+body.night .hero-title{color:#f3f1e8}
+body.night .hero-intro{color:#b8c3bd}
+body.night .photo-topline{color:#d1d8d3}
+body.night .scroll-cue{color:#aab6af}
+body.night .button-outline{color:#f3f1e8;border-color:#aebbb4}
+body.night .work-points span{color:#c3cdc7;border-color:#3b4d47}
+body.night .contact-section p{color:#b5c1bb}
+body.night .contact-actions span{color:#d0d9d4}
+body.night .footer{color:#a1afa8}
+@media(max-width:760px){
+  .education-grid{grid-template-columns:1fr}
+}
+
+/* Buyer company logos */
+.buyer-logo{height:125px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;border-right:1px solid #31504a;border-bottom:1px solid #31504a;transition:.3s;padding:18px}
+.buyer-logo img{width:78px;height:38px;object-fit:contain;filter:brightness(0) invert(1);opacity:.9}
+.buyer-logo span{font:800 8px Manrope;letter-spacing:.12em;color:#aebbb4}
+.buyer-logo:hover{background:#173b35}.buyer-logo:hover img{opacity:1}.buyer-logo:hover span{color:#e1bd69}
+.contact-actions .linkedin strong{color:#9ebbd0}
+body.night .contact-actions .linkedin strong{color:#9fc2dc}
+@media(max-width:760px){.buyer-logo{height:105px}.buyer-logo img{width:65px;height:32px}}
