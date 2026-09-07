@@ -20,7 +20,7 @@ h1,h2,h3{font-family:Manrope,sans-serif;letter-spacing:-.065em;line-height:.93}h
 .expertise-grid{display:grid;grid-template-columns:repeat(4,1fr);max-width:1300px;border-left:1px solid #31504a;border-top:1px solid #31504a}.expertise-card{min-height:270px;padding:26px;border-right:1px solid #31504a;border-bottom:1px solid #31504a;transition:.35s}.expertise-card:hover{background:#173b35;transform:translateY(-4px)}.expertise-card small{font:800 8px Manrope;color:#8da49b}.expertise-card h3{font-size:20px;margin-top:65px}.expertise-card p{font-size:10px;color:#9aa9a2;margin-top:12px;max-width:230px}
 .career{max-width:1150px;margin:auto}.career-row{display:grid;grid-template-columns:150px 30px 1fr;gap:25px;position:relative;padding-bottom:70px}.career-row:not(:last-child):after{content:"";position:absolute;left:163px;top:12px;bottom:0;width:1px;background:var(--line)}.career-year{font:800 8px Manrope;letter-spacing:.1em;color:#818a84;line-height:1.6}.career-marker{width:10px;height:10px;border-radius:50%;background:var(--accent);margin-top:3px;z-index:2;box-shadow:0 0 0 6px rgba(217,164,65,.12)}.company{font:800 9px Manrope;letter-spacing:.15em;color:#a0782d}.career-body h3{font-size:27px;margin:9px 0 17px}.career-body ul{padding-left:18px;color:var(--muted);font-size:11px}.career-body li{margin:6px 0}
 .buyer-wall{max-width:1200px;margin:auto;display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid #31504a;border-left:1px solid #31504a}.buyer-wall div{height:125px;display:grid;place-items:center;border-right:1px solid #31504a;border-bottom:1px solid #31504a;font:800 14px Manrope;color:#dbe3dc;letter-spacing:.05em;transition:.3s}.buyer-wall div:hover{background:#173b35;color:#e1bd69}.buyer-note{max-width:900px;margin:25px auto 0;text-align:center;color:#8e9b94;font-size:9px}
-.featured-work{max-width:1250px;margin:auto;display:grid;grid-template-columns:1.15fr .85fr;gap:6vw;align-items:center}.work-image{height:540px;background:#dfe4dc;position:relative;overflow:hidden;box-shadow:var(--shadow);display:grid;place-items:center}.work-image img{width:100%;height:100%;object-fit:contain;position:relative;z-index:2}.image-placeholder{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#728078;border:1px dashed #aab4ab;background:linear-gradient(135deg,#e8ece5,#d7dfd5)}.image-placeholder span{font:800 38px Manrope;letter-spacing:-.06em}.image-placeholder small{font-size:8px;letter-spacing:.2em;margin-top:6px}.work-image:not(.empty-image) .image-placeholder{display:none}.image-index{position:absolute;right:16px;top:16px;z-index:4;background:var(--dark);color:#fff;padding:8px 11px;font:800 8px Manrope}.work-tag{color:#a0782d}.work-copy h3{font-size:43px;margin:22px 0}.work-copy>p{font-size:12px;color:var(--muted);max-width:500px}.work-points{display:flex;flex-wrap:wrap;gap:7px;margin-top:25px}.work-points span{border:1px solid var(--line);padding:9px 11px;font-size:7px;font-weight:800;letter-spacing:.12em}
+.featured-work{max-width:1250px;margin:auto;display:grid;grid-template-columns:1.15fr .85fr;gap:6vw;align-items:center}.work-image{height:540px;background:#dfe4dc;position:relative;overflow:hidden;box-shadow:var(--shadow);display:grid;place-items:center}.work-image img{width:100%;height:100%;object-fit:cover;position:relative;z-index:2}.image-placeholder{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#728078;border:1px dashed #aab4ab;background:linear-gradient(135deg,#e8ece5,#d7dfd5)}.image-placeholder span{font:800 38px Manrope;letter-spacing:-.06em}.image-placeholder small{font-size:8px;letter-spacing:.2em;margin-top:6px}.work-image:not(.empty-image) .image-placeholder{display:none}.image-index{position:absolute;right:16px;top:16px;z-index:4;background:var(--dark);color:#fff;padding:8px 11px;font:800 8px Manrope}.work-tag{color:#a0782d}.work-copy h3{font-size:43px;margin:22px 0}.work-copy>p{font-size:12px;color:var(--muted);max-width:500px}.work-points{display:flex;flex-wrap:wrap;gap:7px;margin-top:25px}.work-points span{border:1px solid var(--line);padding:9px 11px;font-size:7px;font-weight:800;letter-spacing:.12em}
 .process-grid{display:grid;grid-template-columns:repeat(6,1fr);border-top:1px solid #31504a}.process-card{padding:23px 14px;min-height:205px;border-right:1px solid #31504a;position:relative}.process-card:before{content:"";position:absolute;top:-4px;left:14px;width:7px;height:7px;border-radius:50%;background:var(--accent)}.process-card b{font:800 8px Manrope;color:#82968d}.process-card h3{font-size:18px;margin-top:45px}.process-card p{font-size:9px;color:#95a69e;margin-top:10px}
 .education-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;max-width:1300px}.edu-card{border:1px solid var(--line);padding:28px;min-height:220px;transition:.3s;background:rgba(255,253,248,.4)}.edu-card:hover{transform:translateY(-4px);background:var(--paper);box-shadow:0 15px 40px rgba(15,35,29,.07)}.edu-card small{font-size:8px;letter-spacing:.16em;color:#8a928c;font-weight:800}.edu-card h3{font-size:19px;margin:35px 0 12px}.edu-card p{font-size:10px;color:var(--muted)}.edu-card b,.edu-card em{display:block;font:800 9px Manrope;margin-top:16px}.edu-card em{font-style:normal;color:#858e87;margin-top:4px}
 .skills-grid{max-width:1100px;margin:auto;display:grid;grid-template-columns:1fr 1fr}.skill-card{padding:30px;border:1px solid var(--line);margin:-1px 0 0 -1px;min-height:170px}.skill-card h3{font-size:19px;margin-bottom:15px}.skill-card p{font-size:10px;color:var(--muted);line-height:1.9}
@@ -31,67 +31,14 @@ body.night .site-header{background:rgba(8,21,19,.82);border-color:rgba(255,255,2
 @media(max-width:1050px){.hero-grid{grid-template-columns:1fr}.hero-photo-wrap{min-height:590px}.expertise-grid{grid-template-columns:repeat(2,1fr)}.process-grid{grid-template-columns:repeat(3,1fr)}.featured-work{grid-template-columns:1fr}.work-image{height:500px}.education-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:760px){.site-header{height:68px;padding:0 5vw}.nav{display:none;position:absolute;top:68px;left:0;right:0;background:var(--paper);padding:20px 6vw;flex-direction:column;gap:17px;border-bottom:1px solid var(--line)}.nav.open{display:flex}.menu-btn{display:block;margin-left:9px}.theme-btn{margin-left:auto}.hero{padding:105px 6vw 70px}.hero-grid{gap:35px}.hero h1{font-size:clamp(3.6rem,16vw,6rem)}.hero-title{font-size:14px}.hero-intro{font-size:12px}.hero-buttons{flex-direction:column}.button{width:100%}.hero-metrics{gap:22px;margin-top:40px}.hero-metrics strong{font-size:19px}.hero-photo-wrap{min-height:480px}.photo-frame{height:455px;width:82%}.orbit-one{width:410px;height:410px}.orbit-two{width:460px;height:460px}.badge-quality{left:-5px}.badge-years{right:-5px}.section{padding:90px 6vw}.split-heading{margin-bottom:42px}.split-heading h2{font-size:clamp(2.8rem,12vw,4.5rem)}.about-layout{grid-template-columns:1fr;gap:45px}.about-statement .big-copy{font-size:19px}.expertise-grid{grid-template-columns:1fr}.expertise-card{min-height:220px}.career-row{grid-template-columns:25px 1fr;gap:18px;padding-bottom:50px}.career-row:not(:last-child):after{left:4px}.career-year{grid-column:2;grid-row:1}.career-marker{grid-column:1;grid-row:2;position:absolute;left:0;top:38px}.career-body{grid-column:2}.career-body h3{font-size:21px}.buyer-wall{grid-template-columns:repeat(2,1fr)}.buyer-wall div{height:95px}.process-grid{grid-template-columns:repeat(2,1fr)}.education-grid{grid-template-columns:1fr}.skills-grid{grid-template-columns:1fr}.contact-actions{flex-direction:column}.contact-actions a{min-width:0;width:100%}.footer{padding:20px 6vw;gap:10px;flex-direction:column}.back-top{right:17px;bottom:17px}}
 
-/* Featured work image: complete image, no side cropping */
-.work-image{background:#dfe4dc}
-.work-image img{object-fit:contain;object-position:center;width:100%;height:100%;padding:0}
-body.night .work-image{background:#162824}
-@media(max-width:760px){
-  .work-image{height:auto;min-height:360px}
-  .work-image img{height:auto;max-height:600px}
-}
-
-/* === Final accessibility / theme-contrast pass === */
-body{color:var(--ink)}
-.dark-section{color:var(--darkText)}
-.dark-section .split-heading h2{color:#f4f1e7}
-.light-section .split-heading h2,.work-section .split-heading h2,.skills-section .split-heading h2{color:var(--ink)}
-.section-label{color:#68766e}
-.dark-section .section-label{color:#a4b3aa}
-.career-body h3,.work-copy h3,.about-statement .big-copy,.fact-list b,.edu-card h3,.skill-card h3{color:var(--ink)}
-.dark-section .career-body h3,.dark-section .expertise-card h3,.dark-section .process-card h3{color:#f4f1e7}
-.work-copy .work-tag{color:#9a742e}
-body.night .section-label{color:#aebbb4}
-body.night .light-section .split-heading h2,
-body.night .work-section .split-heading h2,
-body.night .skills-section .split-heading h2,
-body.night .career-body h3,
-body.night .about-statement .big-copy,
-body.night .fact-list b,
-body.night .edu-card h3,
-body.night .skill-card h3,
-body.night .work-copy h3{color:#f3f1e8}
-body.night .work-copy .work-tag{color:#e4b95e}
-body.night .fact-list span,
-body.night .career-year,
-body.night .edu-card small,
-body.night .hero-metrics span{color:#a9b5ae}
-body.night .about-statement>p:last-child,
-body.night .career-body ul,
-body.night .work-copy>p,
-body.night .skill-card p,
-body.night .edu-card p{color:#b6c1bb}
-body.night .buyer-note{color:#a8b5ae}
-body.night .process-card p,
-body.night .expertise-card p{color:#aab8b1}
-body.night .process-card b,.dark-section .process-card b,.dark-section .expertise-card small{color:#b6c6bd}
-body.night .hero-title{color:#f3f1e8}
-body.night .hero-intro{color:#b8c3bd}
-body.night .photo-topline{color:#d1d8d3}
-body.night .scroll-cue{color:#aab6af}
-body.night .button-outline{color:#f3f1e8;border-color:#aebbb4}
-body.night .work-points span{color:#c3cdc7;border-color:#3b4d47}
-body.night .contact-section p{color:#b5c1bb}
-body.night .contact-actions span{color:#d0d9d4}
-body.night .footer{color:#a1afa8}
-@media(max-width:760px){
-  .education-grid{grid-template-columns:1fr}
-}
-
-/* Buyer company logos */
-.buyer-logo{height:125px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;border-right:1px solid #31504a;border-bottom:1px solid #31504a;transition:.3s;padding:18px}
-.buyer-logo img{width:78px;height:38px;object-fit:contain;filter:brightness(0) invert(1);opacity:.9}
-.buyer-logo span{font:800 8px Manrope;letter-spacing:.12em;color:#aebbb4}
-.buyer-logo:hover{background:#173b35}.buyer-logo:hover img{opacity:1}.buyer-logo:hover span{color:#e1bd69}
-.contact-actions .linkedin strong{color:#9ebbd0}
-body.night .contact-actions .linkedin strong{color:#9fc2dc}
-@media(max-width:760px){.buyer-logo{height:105px}.buyer-logo img{width:65px;height:32px}}
+/* === Buyer logos: self-contained, reliable logo-style vector marks === */
+.buyer-logo{height:125px;display:grid;place-items:center;border-right:1px solid #31504a;border-bottom:1px solid #31504a;padding:16px;transition:.3s}
+.company-mark{width:145px;height:68px;display:flex;flex-direction:column;align-items:center;justify-content:center;border:1px solid #64756e;background:rgba(255,255,255,.035);border-radius:5px;line-height:1;text-align:center;transition:.3s}
+.company-mark b{font:800 20px Manrope,sans-serif;letter-spacing:-.04em;color:#f4f1e7}
+.company-mark small{font:700 6px Manrope,sans-serif;letter-spacing:.12em;color:#aebbb4;margin-top:7px}
+.company-mark.bat b{letter-spacing:.02em}.company-mark.jti b{letter-spacing:.06em}.company-mark.ms b{font-size:24px}.company-mark.tesco b{font-size:18px;letter-spacing:.08em}.company-mark.inditex b{font-size:13px;letter-spacing:.08em}.company-mark.lpp b{font-size:26px}.company-mark.primark b{font-size:14px}.company-mark.ca b{font-size:25px}.company-mark.pvh b{font-size:20px}.company-mark.target b{font-size:14px;letter-spacing:.08em}
+.buyer-logo:hover .company-mark{border-color:#d9a441;background:rgba(217,164,65,.08);transform:translateY(-3px)}
+.buyer-logo:hover .company-mark b{color:#e1bd69}.buyer-logo:hover .company-mark small{color:#d0d9d3}
+body.night .company-mark{background:rgba(255,255,255,.045);border-color:#53655d}
+body.night .company-mark b{color:#f5f2e8}.buyer-logo span{display:none}
+@media(max-width:760px){.buyer-logo{height:110px}.company-mark{width:125px;height:60px}.company-mark b{font-size:17px}}
