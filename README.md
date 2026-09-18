@@ -1,7 +1,13 @@
-# Shabuz Chandra Mondol Portfolio
+# Shabuz Chandra Mondol — GitHub Portfolio
 
-Ready-to-upload GitHub Pages website.
+## Upload instructions
+1. Extract this ZIP.
+2. Upload all files directly to the root of your GitHub Pages repository.
+3. Replace the existing files and commit the changes.
+4. Wait for GitHub Pages to deploy.
 
-Upload every file in this folder directly to the root of the repository `shabuzchandramondol.github.io`.
-
-The company logos are local PNG files. The profile image has a darker professional background, the decorative profile label/orbit elements are removed, and the featured work image is contained so it does not cover nearby text.
+## Notes
+- The CV file and Download CV button have been removed.
+- The company logos are local PNG files in the repository root.
+- The profile image uses a comfortable muted sage/slate background that matches the portfolio's green and cream design.
+- Keep `google9580c0051b33f26a.html` in the repository root if it is being used for Google Search Console verification.
